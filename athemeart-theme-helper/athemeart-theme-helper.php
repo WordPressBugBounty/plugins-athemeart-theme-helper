@@ -3,7 +3,7 @@
  * Plugin Name: aThemeArt Demo Import
  * Plugin URI: http://athemeart.com/
  * Description: Import aThemeArt official themes demo content, widgets and theme settings with just one click..
- * Version: 1.0.5
+ * Version: 1.0.6
  * Author: aThemeart
  * Author URI: https://athemeart.com
  * License: GPLv3 or later

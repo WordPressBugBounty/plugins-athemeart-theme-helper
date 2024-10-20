@@ -625,9 +625,8 @@ if (!class_exists('aThemeArt_Demos')) {
                 // Posts to show on the blog page
                 $posts_to_show = isset($demo['posts_to_show']) ? $demo['posts_to_show'] : '';
 
+              
                 
-                
-
                 // Set imported menus to registered theme locations
                 $locations = get_theme_mod('nav_menu_locations');
                 $menus = wp_get_nav_menus();
@@ -660,6 +659,16 @@ if (!class_exists('aThemeArt_Demos')) {
                         
                         
                     }
+                }
+
+                if( !empty($demo['main_menu_name']) && !empty($demo['main_menu_location']) ){
+
+                    $main_menu = get_term_by( 'name', esc_attr( $demo['main_menu_name'] ), 'nav_menu' );
+
+                    set_theme_mod( 'nav_menu_location', array(
+                        $demo['main_menu_location'] => $main_menu->term_id, 
+                        )
+                    );
                 }
 
                 // Set menus to locations

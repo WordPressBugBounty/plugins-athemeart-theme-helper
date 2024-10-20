@@ -3,7 +3,7 @@ Contributors: aThemeArt
 Tags: aThemeArt Theme Helper, Demo Importer, Theme Options
 Requires at least: 4.5
 Tested up to: 6.1.7
-Stable tag: 1.2.3
+Stable tag: 1.2.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
