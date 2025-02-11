@@ -9,13 +9,18 @@
  * License: GPLv3 or later
  * Text Domain: athemeart-theme-helper
  * Domain Path: /languages/
- * Tested up to: 6.0.2
+ * Tested up to: 6.6.9
  * @package athemeart-theme-helper
  */
 
 // Exit if accessed directly
 if (!defined('ABSPATH')) {
     exit;
+}
+
+if ( ! defined( '_FREE_VERSION_DATA' ) ) {
+    // Replace the version number of the theme on each release.
+    define( '_FREE_VERSION_DATA', plugins_url( '/data/free-demo.xml', __FILE__ ) );
 }
 
 /**
