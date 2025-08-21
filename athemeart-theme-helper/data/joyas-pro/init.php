@@ -127,3 +127,24 @@ $data['joyas-decor'] = array(
         ),
     )
 );
+$data['business-agency'] = array(
+     'demo_name' => 'Business Agency',
+    'demo_url' => 'https://demo.athemeart.com/joyas/demo-4/',
+     'categories' => array('Business','Premium'),
+    'xml_file' => get_theme_file_uri( 'inc/demo-data/demo-5.xml' ),
+    'widgets_file' => get_theme_file_uri( 'inc/demo-data/widgets-5.wie' ),
+    'screenshot' => 'https://demo.athemeart.com/joyas/business-agency.png',
+    'home_title' => 'Business Home',
+    'blog_title' => 'Blog',
+    'posts_to_show' => '8',
+    'default_page_template' => 'elementor_header_footer',
+    'required_plugins' => array(
+        'free' => array(
+            array(
+                'slug' => 'elementor',
+                'init' => 'elementor/elementor.php',
+                'name' => 'Elementor',
+            ),
+        ),
+    )
+);

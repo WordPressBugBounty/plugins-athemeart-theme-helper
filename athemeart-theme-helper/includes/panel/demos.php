@@ -650,7 +650,12 @@ if (!class_exists('aThemeArt_Demos')) {
                             $locations['main_menu'] = $menu->term_id;
                             $locations['primary'] = $menu->term_id;
                         }
-                         if ($menu->name == 'Primary Menu') {
+                        if ($menu->name == 'Primary Menu') {
+                            $locations['menu-1'] = $menu->term_id;
+                            $locations['main_menu'] = $menu->term_id;
+                            $locations['primary'] = $menu->term_id;
+                        }
+                        if ($menu->name == 'Business Menu') {
                             $locations['menu-1'] = $menu->term_id;
                             $locations['main_menu'] = $menu->term_id;
                             $locations['primary'] = $menu->term_id;

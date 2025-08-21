@@ -47,7 +47,6 @@ $data['free'] = array(
         ),
     )
 );
-
 $data['fashion'] = array(
     'demo_name' => 'Jewelry Store',
     'demo_url' => 'https://demo.athemeart.com/joyas/demo-1/',
@@ -55,7 +54,6 @@ $data['fashion'] = array(
     'screenshot' => 'https://i0.wp.com/demo.athemeart.com/joyas/img/demo-1.png',
     'pro' => 'https://athemeart.com/downloads/joyas/', 
 );
-
 $data['Cosmetics'] = array(
     'demo_name' => 'Multipurpose( With Reveltion slider ) ',
     'demo_url' => 'https://demo.athemeart.com/joyas/demo-2/',
@@ -63,7 +61,6 @@ $data['Cosmetics'] = array(
     'screenshot' => 'https://i0.wp.com/demo.athemeart.com/joyas/img/demo-2.png',
     'pro' => 'https://athemeart.com/downloads/joyas/', 
 );
-
 $data['fashion'] = array(
     'demo_name' => 'Jewelry Store',
     'demo_url' => 'https://demo.athemeart.com/joyas/demo-1/',
@@ -71,7 +68,6 @@ $data['fashion'] = array(
     'screenshot' => 'https://i0.wp.com/demo.athemeart.com/joyas/img/demo-1.png',
     'pro' => 'https://athemeart.com/downloads/joyas/', 
 );
-
 $data['joyas-jewellery'] = array(
     'demo_name' => 'Joyas Jewellery',
     'demo_url' => 'https://athemeart.dev/joyas/demo-3/',
@@ -79,11 +75,17 @@ $data['joyas-jewellery'] = array(
     'screenshot' => 'https://athemeart.dev/joyas/dummy/screenshot-3.png',
     'pro' => 'https://athemeart.com/downloads/joyas/', 
 );
-
 $data['joyas-decor'] = array(
     'demo_name' => 'Joyas Decor Shop',
     'demo_url' => 'https://demo.athemeart.com/joyas/demo-3/',
     'categories' => array('Premium'),
     'screenshot' => 'https://athemeart.dev/joyas/dummy/screenshot-4.png',
+    'pro' => 'https://athemeart.com/downloads/joyas/', 
+);
+$data['business-agency'] = array(
+    'demo_name' => 'Joyas Business Agency',
+    'demo_url' => 'https://demo.athemeart.com/joyas/demo-4/',
+    'categories' => array('Business','Premium'),
+    'screenshot' => 'https://demo.athemeart.com/joyas/business-agency.png',
     'pro' => 'https://athemeart.com/downloads/joyas/', 
 );
